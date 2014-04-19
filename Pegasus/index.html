@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script src="_ui/js/pegasus.js"></script>
+    <link rel="stylesheet" href="_ui/css/pegasus.css" />
+
+</head>
+<body>
+    <div style="float:left;">
+        <canvas id="a" width="600" height="400" style="border:1px solid;"></canvas>
+        <br />
+    </div>
+    <div style="width: 200px;margin-left: 10px; padding-left: 5px; float:left; border-left: solid 1px red;">
+        <div style="float:left;">
+            Settings
+            <ul>
+                <li>
+                    Rendering:<strong id="drawingState"></strong> (ESC)
+                </li>
+                <li>
+                    Logging:<strong id="loggingState"></strong> ('L')
+                </li>
+                <li>
+                    Invert Color:<strong id="invertColor"></strong> ('I')
+                </li>
+            </ul>
+        </div>
+        <div style="clear:both;"></div>
+        <div style="float:left;">
+            TODO:
+            <ul>
+                <li><strong>requestAnimationFrame</strong></li>
+                <li>powerups</li>
+                <li>indicators (life, score, etc.)</li>
+                <li>enemies</li>
+                <li>hit detection</li>
+                <li>keyboard press and hold</li>
+                <li>investigate invert difference w/ hero and clouds</li>
+                <li>work on cloud/canvas bounds (use height/width of asset)</li>
+
+            </ul>    
+        </div>
+    </div>
+    <img src="_ui/images/Sprites/PegMedium.png" id="pegImg" />
+
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud1" />
+    <img src="_ui/images/Sprites/Cloud2_resized.png" id="cloud2" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud3" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud4" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud5" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud6" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud7" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud8" />
+    <img src="_ui/images/Sprites/Cloud1_resized.png" id="cloud9" />
+
+    <!--<img src="_ui/images/Sprites/LifeInd.png" id="lifeInd" />-->
+
+    <img src="_ui/images/Sprites/lasersmall.png" id="laser" />
+
+    
+</body>
+</html>
